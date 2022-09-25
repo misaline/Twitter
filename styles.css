@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: sans-serif;
+}
+
+.conteiner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*sayfa büyüp küçüldüğünde ona göre konumlanır fr*/
+    grid-template-rows: 50px auto;
+    height: 100%;
+
+}
+
+div>h5 {
+
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 90px;
+    color: white;
+
+}
+
+
+.kutu1 {
+    background-color: black;
+    border-right: 0.1px solid rgb(65, 63, 63);
+    grid-column: 2/4;
+
+}
+
+.kutu2 {
+    background-color: black;
+    grid-row: 1/-1;
+
+    border-right: 0.1px solid rgb(65, 63, 63);
+
+}
+
+
+
+.kutu3 {
+    background-color: black;
+    grid-column: 2/4;
+    border-right: 0.1px solid rgb(65, 63, 63);
+    border-top: 0.1px solid rgb(65, 63, 63);
+
+}
+
+.logo {
+
+    font-size: 30px;
+    /*padding: 10px;
+    margin-left: 50px*/
+    text-align: center;
+
+}
+
+div>a:hover {
+    background-color: rgba(9, 24, 46, 0.534);
+
+    /* border: 10px solid rgba(128, 128, 128, 0.13);*/
+    border-radius: 40px;
+
+}
+
+h5>a:hover {
+    background-color: rgba(128, 128, 128, 0.274);
+    border-radius: 32px;
+
+}
+
+h5>a {
+    display: block;
+    color: white;
+    padding-left: 20px;
+}
+
+
+div>a {
+    display: block;
+    position: sticky;
+    color: white;
+    width: 50px;
+    height: 40px;
+    margin-left: 40px;
+    padding-top: 10px;
+    /*logonun fare geldiğinde arka plan renginin yuvarlak olması için eklediğim özellikler*/
+}
+
+.kutu4 {
+    background-color: black;
+    grid-column: 4/-1;
+    grid-row: 1/-1;
+}
