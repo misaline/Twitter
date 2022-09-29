@@ -1,4 +1,272 @@
-div>h5 {
+* {
+    box-sizing: border-box;
+}
+
+.anakapsayici {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr 1fr 1fr);
+    font-family: sans-serif;
+    width: 100%;
+
+}
+
+
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.bar {
+    /*background-color: rgb(70, 47, 47);*/
+    width: 150px;
+    height: 18em;
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-top: 20px;
+    align-items: center;
+
+    gap: 20px;
+    text-align: center;
+}
+
+i {
+    display: flex;
+    padding: 15px;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+}
+
+div>a {
+
+    color: rgba(255, 255, 255, 0.753);
+
+
+}
+
+div>a:hover {
+    background-color: #00abee1f;
+
+    border-radius: 32px;
+
+}
+
+
+.kus {
+    /*  background-color: rgb(58, 169, 230);*/
+    display: flex;
+
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tweet {
+    background-color: rgb(55, 129, 169);
+    width: 150px;
+    height: 150px;
+}
+
+.resim {
+    /* background-color: rgb(19, 58, 79);*/
+    display: flex;
+    width: 14%;
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.yazi {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 10px;
+    width: 700px;
+
+    font-size: 28px;
+
+
+}
+
+.anasayfa {
+    /* background-color: rgb(75, 112, 132);*/
+    width: 50%;
+    height: 60px;
+    padding-top: 7px;
+    padding-left: 10px;
+
+
+
+}
+
+.populert {
+    /*background-color: rgb(0, 85, 130);*/
+    width: 50%;
+    height: 60px;
+    text-align: end;
+    padding-right: 20px;
+
+
+
+}
+
+img {
+    border-radius: 42px;
+
+}
+
+.resim2 {
+    /* background-color: rgb(112, 186, 226);*/
+
+    width: 14%;
+    height: 80px;
+    text-align: center;
+
+
+
+
+}
+
+textarea {
+    width: 80%;
+    height: 80px;
+    background-color: inherit;
+    border: 0;
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+textarea {
+    outline: none;
+    /*focus özelliği kapandı*/
+    resize: none;
+
+}
+
+
+
+.neler {
+    /* background-color: rgb(159, 159, 159);*/
+    width: 80%;
+    height: 80px;
+    color: rgba(255, 255, 255, 0.308);
+
+
+
+}
+
+.ekleme {
+    /*background-color: rgb(30, 49, 59);*/
+    width: 70%;
+    height: 50px;
+    font-size: large;
+    display: flex;
+    padding-left: 100px;
+    gap: 30px;
+    align-items: center;
+    color: #00ACEE;
+
+}
+
+.buton {
+    /* background-color: rgb(84, 144, 177);*/
+    width: 30%;
+    height: 50px;
+    text-align: end;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 110px;
+    height: 40px;
+    border-radius: 32px;
+    background-color: #00ACEE;
+    color: white;
+    border: 0;
+    font-size: 18px;
+
+
+
+}
+
+.timeline {
+    background-color: rgb(110, 143, 160);
+    width: 100%;
+    height: 100%;
+    align-self: flex-end;
+}
+
+.uc {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start
+}
+
+.ara {
+    background-color: rgb(227, 235, 240);
+    width: 400px;
+    height: 80px;
+}
+
+.gundem {
+    background-color: rgb(147, 217, 255);
+    width: 400px;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div>h5 {
 
     text-align: left;
     margin-left: 50px;
@@ -48,7 +316,8 @@ img {
     font-size: 30px;
     /*padding: 10px;
     margin-left: 50px*/
-    text-align: center;
+/*
+text-align: center;
 
 }
 
@@ -56,7 +325,7 @@ div>a:hover {
     background-color: rgba(9, 24, 46, 0.534);
 
     /* border: 10px solid rgba(128, 128, 128, 0.13);*/
-    border-radius: 40px;
+/*border-radius: 40px;
 
 }
 
@@ -82,8 +351,9 @@ div>a {
     margin-left: 40px;
     padding-top: 10px;
     /*logonun fare geldiğinde arka plan renginin yuvarlak olması için eklediğim özellikler*/
-}
 
+
+/*
 .kutu4 {
     background-color: black;
     grid-column: 4/-1;
